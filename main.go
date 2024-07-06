@@ -43,7 +43,7 @@ func getPubspecFile() (*os.File, error) {
 		return pubspec, nil
 	}
 
-	return nil, fmt.Errorf("Did not found pubscpec file")
+	return nil, fmt.Errorf("Did not found pubspec file")
 }
 
 // Search for the build version in pubspec [file]
